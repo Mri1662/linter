@@ -27,6 +27,6 @@ function LinterButtons({ onFormatJSON }) {
 
 LinterButtons.propTypes = {
   onFormatJSON: PropTypes.string.isRequired,
-};
+}
 
 export default LinterButtons;
