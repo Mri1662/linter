@@ -10,7 +10,7 @@ function App() {
   const [jsonCode, setJsonCode] = useState("");
   const [updatedJsonCode, setUpdatedJsonCode] = useState("");
 
-  const clearJsonCode = () => {
+  const clearJsonCode = () => { 
     setJsonCode(""); // Clear the JSON code input field
     // Clear the jsonCode cookie by setting its expiration to a past date
     const expirationDate = new Date(0);
@@ -23,7 +23,7 @@ function App() {
     const expirationDate = new Date();
     expirationDate.setDate(expirationDate.getDate() + 7);
     document.cookie = `jsonCode=${encodeURIComponent(
-      value
+      value,
     )}; expires=${expirationDate.toUTCString()}; path=/`;
   }, []);
 
