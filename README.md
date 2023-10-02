@@ -99,18 +99,15 @@ We encourage all contributors to follow our linting rules and appreciate the aut
 2. 'semi': ['error', 'always'] - Enforce the use of semicolons.
 
 3. 'quotes': ['error', 'single'] - Enforce the use of single quotes for strings.
-Unused Variables:
 
 4. 'no-unused-vars': 'error' - Detect unused variables.
 
 5. 'const' or 'let' - Prefer using const for variables that do not reassign, and let for variables that do.
 
 6. 'arrow-spacing': 'error' - Enforce consistent spacing around arrow function parameters.
-No Console:
 
 7. 'no-unused-vars': ['error', { 'args': 'none' }] - Disallow unused function parameters.
-Enforce JSX Closing Bracket Style:
-
+   
 8.'react/jsx-closing-bracket-location': ['error', 'line-aligned'] - Enforce JSX closing bracket location to be aligned with the opening tag or on a new line.
 
 9. Enforce PropTypes: If you're not using TypeScript, you can use the 'react/prop-types' rule to enforce PropTypes for your components.
